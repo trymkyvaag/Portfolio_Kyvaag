@@ -402,13 +402,15 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .4)),
-        url('./images/header.jpg');
+        url('https://hattvikalodge.no/wp-content/uploads/2020/06/Lofoten-Aurora-Skagsanden-04-20-2-2-e1592990570453.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
+
 }
+
 
 .header__text {
     position: absolute;
