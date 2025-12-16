@@ -33,7 +33,7 @@
                 <h1 class="heading-primary">
                     <span>Trym Kyvåg</span>
                 </h1>
-                <p>Here are some of my favorite and most memorable projects!</p>
+                <p>Reasearch and Projects</p>
                 <a href="#contact" class="btn btn--pink">Get in touch</a>
             </div>
         </div>
@@ -49,13 +49,15 @@
                 <div class="work__boxes">
                     <div class="work__box">
                         <div class="work__text">
-                            <h3>Ongoing research: SO(3) equivariant predictions</h3>
+                            <h3>Space2Sphere: 6D Pose & Translation prediction for non-cooperative spacecrafts</h3>
                             <p>
-                                Researching non-cooperative spacecraft pose estimation, focusing on predicting 6D pose
-                                (3D position and rotation) without prior knowledge of spacecraft structure. Exploring
-                                SO(3)-equivariant methods and infrared map augmentation to improve symmetry preservation
-                                and performance on limited datasets, while evaluating model robustness across varying
-                                training data volumes.
+                                Conducted research on non-cooperative spacecraft pose estimation, addressing 6-DoF (3D
+                                position and orientation) prediction without prior knowledge of spacecraft geometry.
+                                Developed and evaluated SO(3)-equivariant learning approaches and improved
+                                generalization under limited data.
+                                Achieved a mean rotation error of approximately 1° and a translation error of
+                                0.15 through training on symmetry-aware pose distributions, demonstrating robust
+                                generalization across unseen configurations and varying training set sizes.
                             </p>
                             <ul class="work__list">
                                 <li>Representation theory</li>
@@ -63,11 +65,60 @@
                                 <li>Pose/Translation estimation</li>
                                 <li>Geometric Deep Learning</li>
                             </ul>
+                            <div class="work__links">
+                                <a href="https://github.com/Airport237/image2sphere" class="link__text">
+                                    Visit Site <span>&rarr;</span>
+                                </a>
+                                <a href="https://github.com/Airport237/image2sphere">
+                                    <img src="./images/github.svg" class="work__code" title="View Source Code"
+                                        alt="GitHub">
+                                </a>
+                            </div>
+                            <div class="work__links">
+                                <a href="https://drive.google.com/file/d/1LbSRKaCmQXKS-tTTfuaW738a7c2sFr2s/view?usp=sharing"
+                                    class="link__text">
+                                    Link to paper <span>&rarr;</span>
+                                </a>
+
+                            </div>
                         </div>
                         <div class="work__image-box">
                             <img src="./images/spacekraft.png" class="work__image" alt="Project 1" />
+
+                        </div>
+
+                    </div>
+                    <div class="work__box">
+                        <div class="work__text">
+                            <h3>Equivariant MRI Classification</h3>
+                            <p>
+                                Development and evaluation of equivariant deep learning models for medical imaging,
+                                focusing on robust MRI classification across 2D and 3D modalities using symmetry-aware
+                                architectures.
+                            </p>
+                            <ul class="work__list">
+                                <li>D4 equivariant MRI classification</li>
+                                <li>2D & 3D MRI classification</li>
+                                <li>99% accuracy 2D</li>
+                                <li>Promising results for future work in equivariant medical imaging</li>
+                            </ul>
+
+                            <div class="work__links">
+                                <a href="https://github.com/trymkyvaag/CS6140FinalProject_Liu_Zhu_Kyvaag"
+                                    class="link__text">
+                                    Visit Site <span>&rarr;</span>
+                                </a>
+                                <a href="https://github.com/trymkyvaag/CS6140FinalProject_Liu_Zhu_Kyvaag">
+                                    <img src="./images/github.svg" class="work__code" title="View Source Code"
+                                        alt="GitHub">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="work__image-box">
+                            <img src="./images/3Dmri.png" class="work__image" alt="Project 1" />
                         </div>
                     </div>
+
                     <!-- FAI final project-->
                     <div class="work__box">
                         <div class="work__text">
@@ -349,7 +400,7 @@
                 <p>
                     Do you have any questions regarding the projects or anything else about me? Feel free to reach out!
                     <br>
-                    <a href="mailto:kyvaag.t@northeastern.edu" class="btn">kyvaagt@merrimack.edu</a>
+                    <a href="mailto:kyvaag.t@northeastern.edu" class="btn">kyvaag.t@northeastern.edu</a>
             </div>
         </div>
     </section>
